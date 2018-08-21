@@ -507,8 +507,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=adfreetv.ch|ddmix.n
 
 ! https://git.io/vxeAt
 ! https://forums.lanik.us/viewtopic.php?f=64&t=40185
-||github.io^$third-party,websocket,domain=~github.com|~tumblr.com
-||github.io^$third-party,xmlhttprequest,domain=~facebook.com|~github.com|~tumblr.com
+!||github.io^$third-party,websocket,domain=~github.com|~tumblr.com
+!||github.io^$third-party,xmlhttprequest,domain=~facebook.com|~github.com|~tumblr.com
 
 ! Pools
 ||pool.supportxmr.com^
